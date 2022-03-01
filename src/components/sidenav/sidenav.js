@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Inner } from "./style";
+import { Nav, Inner } from "./style";
 import SideNavLinks from "../../data/sidenavlinks";
 
 export default function SideNav() {
