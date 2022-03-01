@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components/macro";
 
-export default GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
   body, html {
     margin: 0;
     white-space: 0;
@@ -12,8 +12,23 @@ export default GlobalStyles = createGlobalStyle`
       'Segoe UI Symbol';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: rgb(23, 23, 23);
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background: rgb(245, 245, 245);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 1.25rem;
   }
   * {
     box-sizing: border-box;
   }
+  a {
+    text-decoration: none;
+    color: rgb(59, 73, 223);
+  }
 `;
+export default GlobalStyles;
