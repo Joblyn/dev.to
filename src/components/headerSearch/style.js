@@ -52,9 +52,17 @@ export const Button = styled.button`
   top: 1px;
   right: 1px;
   bottom: 1px;
-  padding: 0.5rem;
+  padding: 0.375rem;
   background: transparent;
-  color: rgb(38,38,38);
+  color: rgb(38, 38, 38);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 0.375rem;
+  font: inherit;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  overflow-wrap: normal;
 
   :hover {
     background: rgba(59, 73, 223, 0.1);
@@ -65,7 +73,7 @@ export const Button = styled.button`
     vertical-align: bottom;
     > * {
       fill: currentColor;
-    } 
+    }
   }
   > * {
     pointer-events: none;

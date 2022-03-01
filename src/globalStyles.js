@@ -21,7 +21,6 @@ const GlobalStyles = createGlobalStyle`
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-size: 1.25rem;
   }
   * {
     box-sizing: border-box;

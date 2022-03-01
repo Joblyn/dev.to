@@ -7,7 +7,7 @@ export const Container = styled.header`
   right: 0px;
   height: 56px;
   background: rgb(255, 255, 255);
-  box-shadow: 0 1px 1px rgba(0, 0, 0 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   z-index: 100;
 `;
 
@@ -55,4 +55,11 @@ export const Brand = styled.a`
     display: inline-block;
     outline: 0;
   }
+`;
+
+export const Group = styled.div`
+  display: flex;
+  margin-left: auto;
+  height: 100%;
+  align-items: center;
 `;
