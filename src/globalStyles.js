@@ -21,6 +21,8 @@ const GlobalStyles = createGlobalStyle`
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding-top: 56px;
+    min-height: calc(100vh - 56px);
   }
   * {
     box-sizing: border-box;
@@ -28,6 +30,22 @@ const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
     color: rgb(59, 73, 223);
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    margin: 0;
+    list-style: none;
+  }
+  strong {
+    font-weight: bolder;
+  }
+  p {
+    margin: 0;
   }
 `;
 export default GlobalStyles;

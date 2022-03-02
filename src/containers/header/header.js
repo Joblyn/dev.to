@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <Container>
       <Inner>
-        <Brand href="/" aria-lebel="DEV Community Home">
+        <Brand href="/" aria-label="DEV Community Home">
           <img src={Logo} alt="DEV Community" />
         </Brand>
         <HeaderSearch />

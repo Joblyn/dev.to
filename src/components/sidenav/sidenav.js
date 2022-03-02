@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Inner } from "./style";
+import { Nav, Inner, Item, Link } from "./style";
 import SideNavLinks from "../../data/sidenavlinks";
 
 export default function SideNav() {
@@ -10,12 +10,12 @@ export default function SideNav() {
           let link =
             id === 0
               ? "https://dev.to/"
-              : "https://dev.to/" + item.text.toLowerCase;
+              : "https://dev.to/" + item.text.toLowerCase();
           return (
             <Item>
               <Link href={link}>
                 <span>
-                  <item.Icon />
+                  <item.icon />
                 </span>
                 {item.text}
               </Link>

@@ -9,7 +9,7 @@ import { ReactComponent as Sponsors } from "../assets/icons/sidenav/sponsors.svg
 import { ReactComponent as About } from "../assets/icons/sidenav/about.svg";
 import { ReactComponent as Contact } from "../assets/icons/sidenav/contact.svg";
 
-export default SideNavLinks = [
+const SideNavLinks = [
   {
     icon: Home,
     text: "Home",
@@ -51,3 +51,5 @@ export default SideNavLinks = [
     text: "Contact",
   },
 ];
+
+export default SideNavLinks;

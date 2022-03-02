@@ -1,4 +1,3 @@
-import { style } from "@mui/system";
 import styled from "styled-components/macro";
 
 export const CardContainer = styled.div`
@@ -9,11 +8,9 @@ export const CardContainer = styled.div`
     0.375rem;
   overflow-wrap: anywhere;
 
-  ${({ p4 }) =>
-    p4 &&
-    `
-    padding: 1rem;
-  `}
+  ${({ p4 }) => p4 && `padding: 1rem`};
+  ${({ p3 }) => p3 && `padding: 0.75rem`};
+  ${({ mt4 }) => mt4 && `margin-top: 1rem`};
 `;
 
 export const StoryContainer = styled.div`
@@ -32,7 +29,6 @@ export const StoryContainer = styled.div`
   `}
 `;
 
-// Subtitle, Text
 export const Subtitle = styled.h2`
   line-height: 1.25;
   margin-bottom: 1rem;
@@ -44,6 +40,8 @@ export const Text = styled.p`
   margin-bottom: 1rem;
   color: #575757;
   margin: 0;
+
+  ${({ mb4 }) => mb4 && `margin-bottom: 1rem`};
 `;
 export const Link = styled.a`
   position: relative;
@@ -58,8 +56,16 @@ export const Link = styled.a`
 
   :hover {
     color: rgb(47, 48, 178);
-    ${"" /* background-color: rgba(59, 73, 223, 0.1); */}
-    z-index:1;
+    z-index: 1;
     text-decoration: underline;
   }
+`;
+
+export const Image = styled.img`
+  width: 100%;
+  height: auto;
+  border-radius: 0.375rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px auto;
 `;

@@ -2,7 +2,7 @@ import { ReactComponent as Coc } from "../assets/icons/other/coc.svg";
 import { ReactComponent as Pp } from "../assets/icons/other/pp.svg";
 import { ReactComponent as Tou } from "../assets/icons/other/tou.svg";
 
-export default OtherLinks = [
+const OtherLinks = [
   {
     icon: Coc,
     text: "Code of Conduct",
@@ -16,3 +16,5 @@ export default OtherLinks = [
     text: "Terms of use",
   },
 ];
+
+export default OtherLinks;
