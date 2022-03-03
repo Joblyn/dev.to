@@ -12,7 +12,7 @@ export default function SideNav() {
               ? "https://dev.to/"
               : "https://dev.to/" + item.text.toLowerCase();
           return (
-            <Item>
+            <Item key={`nav_item_${item.text}`}>
               <Link href={link}>
                 <span>
                   <item.icon />

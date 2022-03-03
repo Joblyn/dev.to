@@ -1,4 +1,4 @@
-[
+export default [
   {
     text: "It *IS* possible to get a voice here! [tips to grow on DEV.to + a mini rant!]",
     comment: 89,

@@ -1,4 +1,4 @@
-[
+export default [
   {
     text: "Developer hacktivism for Ukraine",
     comment: 1,

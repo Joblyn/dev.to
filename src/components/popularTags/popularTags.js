@@ -10,7 +10,7 @@ export default function PopularTags() {
       <Heading p2>Popular Tags</Heading>
       <Inner>
         {popularTags.map((item) => (
-          <div>
+          <div key={`popular_tags_${item.text}`}>
             <Link href={`https://dev.to/t/${item.toLowerCase()}`}>#{item}</Link>
           </div>
         ))}

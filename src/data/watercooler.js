@@ -1,4 +1,4 @@
-[
+export default [
   {
     text: "SHA256le in 16 guesses (or less)",
     tag: "New",

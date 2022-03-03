@@ -1,4 +1,4 @@
-[
+export default [
   {
     text: "Explain Monads Like I'm five",
     comment: 17,

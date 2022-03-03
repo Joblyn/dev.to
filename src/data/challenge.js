@@ -1,4 +1,4 @@
-[
+export default [
   {
     text: "Advent Of Code 2021 – Smoke Basin – Puzzle 9",
     tag: "New",

@@ -22,11 +22,10 @@ export const ButtonPrimary = styled.a`
       display: inline-block;
       padding: calc(0.5rem - 0px) calc(1rem - 0px);
         border: 0px solid;
-        background-color: rgb(59, 73, 223): 
+        background-color: rgb(59, 73, 223); 
         box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         color: #f9f9f9;
         border-color: transparent;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         `}
 
   ${({ lg }) =>
@@ -42,6 +41,7 @@ export const ButtonPrimary = styled.a`
     `
     white-space: nowrap;
     margin-right: 0.5rem;
+    width: 100%;
       `}
 
   :hover {

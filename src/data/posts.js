@@ -1,6 +1,5 @@
-[
+const posts = [
   {
-    img_src: "../assets/images/typescript.jpg",
     profile: {
       name: "Chris Bongers",
       img: "../assets/profiles/profile-1.jpeg",
@@ -9,26 +8,9 @@
     date: "Feb 28",
     title: "TypeScript: How to use Enums",
     link: "https://dev.to/dailydevtips1/typescript-how-to-use-enums-2nn8",
-    hash: [
-      { tag: "typescript", link: "https://dev.to/t/typescript"
-      },
-      {
-        tag: "javascript",
-        link: "https://dev.to/t/javascript",
-      },
-      {
-        tag: "beginners",
-        link: "https://dev.to/t/beginners",
-      },
-    ],
-    reactions: {
-      num: 20,
-      link: "https://dev.to/dailydevtips1/typescript-how-to-use-enums-2nn8",
-    },
-    comments: {
-      num: 2,
-      link: "https://dev.to/dailydevtips1/typescript-how-to-use-enums-2nn8#comments",
-    },
+    hash: ["typescript", "javascript", "beginners"],
+    reactions: 20,
+    comments: 2,
     read_time: 3,
   },
   {
@@ -40,24 +22,9 @@
     date: "Feb 28",
     title: "HTML Tips & Tricks That You Will Love To Know ✨❤️",
     link: "https://dev.to/killallnano/python-for-everyone-mastering-python-the-right-way-183i",
-    hash: [
-      { tag: "webdev", link: "https://dev.to/t/webdev"
-      },
-      { tag: "html", link: "https://dev.to/t/html"
-      },
-      { tag: "productivity", link: "https://dev.to/t/tutorial"
-      },
-      { tag: "beginners", link: "https://dev.to/t/django"
-      },
-    ],
-    reactions: {
-      num: 14,
-      link: "https://dev.to/killallnano/python-for-everyone-mastering-python-the-right-way-183i",
-    },
-    comments: {
-      num: 0,
-      link: "https://dev.to/killallnano/python-for-everyone-mastering-python-the-right-way-183i#comments",
-    },
+    hash: ["webdev", "html", "productivity", "beginners"],
+    reactions: 14,
+    comments: 0,
     read_time: 3,
   },
   {
@@ -69,24 +36,9 @@
     link: "https://dev.to/dotnetsafer/c-11-is-coming-5-features-that-will-blow-your-mind-3o7h",
     date: "Feb 28",
     title: "C# 11 is Coming! 5 Features that will Blow your Mind 🤯",
-    hash: [
-      { tag: "Kubernetes", link: "https://dev.to/t/kubernetes"
-      },
-      { tag: "cloud", link: "https://dev.to/t/cloud"
-      },
-      { tag: "opensource", link: "https://dev.to/t/opensource"
-      },
-      { tag: "devops", link: "https://dev.to/t/devops"
-      },
-    ],
-    reactions: {
-      num: 3,
-      link: "https://dev.to/dotnetsafer/c-11-is-coming-5-features-that-will-blow-your-mind-3o7h",
-    },
-    comments: {
-      num: 0,
-      link: "https://dev.to/dotnetsafer/c-11-is-coming-5-features-that-will-blow-your-mind-3o7h#comments",
-    },
+    hash: ["Kubernetes", "cloud", "opensource", "devops"],
+    reactions: 3,
+    comments: 0,
     read_time: 5,
   },
   {
@@ -98,27 +50,13 @@
     link: "https://dev.to/killallnano/python-for-everyone-mastering-python-the-right-way-183i",
     date: "Feb 28",
     title: "Python for Everyone: Mastering Python the right way",
-    hash: [
-      { tag: "python", link: "https://dev.to/t/python"
-      },
-      { tag: "programming", link: "https://dev.to/t/programming"
-      },
-      { tag: "tutorial", link: "https://dev.to/t/tutorial"
-      },
-      { tag: "django", link: "https://dev.to/t/django"
-      },
-    ],
-    reactions: {
-      num: 3,
-      link: "https://dev.to/killallnano/python-for-everyone-mastering-python-the-right-way-183i",
-    },
-    comments: {
-      num: 0,
-      link: "https://dev.to/killallnano/python-for-everyone-mastering-python-the-right-way-183i#comments",
-    },
+    hash: ["python", "programming", "tutorial", "django"],
+    reactions: 3,
+    comments: 0,
     read_time: 5,
   },
   {
+    img_src: "../assets/images/mrbud.jpeg",
     profile: {
       img: "../assets/profiles/profile-5.jpg",
       name: "Mr Bud",
@@ -127,24 +65,9 @@
     link: "https://dev.to/mrbuddesigner/software-developers-guide-to-game-development-40p6",
     date: "Feb 28",
     title: "Software Developer's Guide to Game Development",
-    hash: [
-      { tag: "programming", link: "https://dev.to/t/programming"
-      },
-      { tag: "beginners", link: "https://dev.to/t/beginners"
-      },
-      { tag: "career", link: "https://dev.to/t/career"
-      },
-      { tag: "tutorial", link: "https://dev.to/t/tutorial"
-      },
-    ],
-    reactions: {
-      num: 3,
-      link: "https://dev.to/mrbuddesigner/software-developers-guide-to-game-development-40p6",
-    },
-    comments: {
-      num: 0,
-      link: "https://dev.to/mrbuddesigner/software-developers-guide-to-game-development-40p6#comments",
-    },
+    hash: ["programming", "beginners", "career", "tutorial"],
+    reactions: 3,
+    comments: 0,
     read_time: 4,
   },
   {
@@ -154,24 +77,12 @@
       link: "https://dev.to/aws",
     },
     link: "https://dev.to/aws/aws-open-source-news-and-updates-102-41j8",
-    for: { text: "AWS", link: "https://dev.to/aws"
-    },
+    for: { text: "AWS", link: "https://dev.to/aws" },
     date: "Feb 28",
     title: "AWS open source news and updates, #102",
-    hash: [
-      { tag: "opensource", link: "https://dev.to/t/opensource"
-      },
-      { tag: "aws", link: "https://dev.to/t/aws"
-      },
-    ],
-    reactions: {
-      num: 3,
-      link: "https://dev.to/aws/aws-open-source-news-and-updates-102-41j8",
-    },
-    comments: {
-      num: 0,
-      link: "https://dev.to/aws/aws-open-source-news-and-updates-102-41j8#comments",
-    },
+    hash: ["opensource", "aws"],
+    reactions: 3,
+    comments: 0,
     read_time: 2,
   },
   {
@@ -183,24 +94,9 @@
     date: "Feb 28",
     link: "https://dev.to/andrewbaisden/8-github-resources-for-becoming-a-developer-in-2022-cji",
     title: "8 GitHub resources for becoming a developer in 2022",
-    hash: [
-      { tag: "javascript", link: "https://dev.to/t/javascript"
-      },
-      { tag: "webdev", link: "https://dev.to/t/webdev"
-      },
-      { tag: "beginners", link: "https://dev.to/t/beginners"
-      },
-      { tag: "programming", link: "https://dev.to/t/programming"
-      },
-    ],
-    reactions: {
-      num: 3,
-      link: "https://dev.to/andrewbaisden/8-github-resources-for-becoming-a-developer-in-2022-cji",
-    },
-    comments: {
-      num: 0,
-      link: "https://dev.to/andrewbaisden/8-github-resources-for-becoming-a-developer-in-2022-cji#comments",
-    },
+    hash: ["javascript", "webdev", "beginners", "programming"],
+    reactions: 3,
+    comments: 0,
     read_time: 3,
   },
   {
@@ -212,24 +108,9 @@
     date: "Feb 28",
     link: "https://dev.to/ingosteinke/color-blending-with-css-blend-modes-34h3",
     title: "Color blending with CSS blend-modes",
-    hash: [
-      { tag: "webdev", link: "https://dev.to/t/webdev"
-      },
-      { tag: "csss", link: "https://dev.to/t/css"
-      },
-      { tag: "gimp", link: "https://dev.to/t/gimp"
-      },
-      { tag: "design", link: "https://dev.to/t/design"
-      },
-    ],
-    reactions: {
-      num: 16,
-      link: "https://dev.to/ingosteinke/color-blending-with-css-blend-modes-34h3",
-    },
-    comments: {
-      num: 0,
-      link: "https://dev.to/ingosteinke/color-blending-with-css-blend-modes-34h3@commments",
-    },
+    hash: ["webdev", "csss", "gimp", "design"],
+    reactions: 16,
+    comments: 0,
     read_time: 3,
   },
   {
@@ -241,16 +122,7 @@
     link: "https://dev.to/m13ha/data-structures-stacks-and-queues-i-ild",
     date: "Feb 28",
     title: "Data Structures: Stacks And Queues I",
-    hash: [
-      { tag: "javascript", link: "https://dev.to/t/javascript"
-      },
-      { tag: "webdev", link: "https://dev.to/t/webdev"
-      },
-      { tag: "beginners", link: "https://dev.to/t/beginners"
-      },
-      { tag: "computerscience", link: "https://dev.to/t/computerscience"
-      },
-    ],
+    hash: ["javascript", "webdev", "beginners", "computerscience"],
     reactions: 3,
     comments: 0,
     read_time: 6,
@@ -264,12 +136,7 @@
     date: "Feb 28",
     link: "https://dev.to/ahmedgulabkhan/kafka-partitions-and-consumer-groups-2aff",
     title: "Kafka Partitions and Consumer Groups",
-    hash: [
-      "kafka",
-      "apachekafka",
-      "kafkapartitions",
-      "kafkaconsumergroups"
-    ],
+    hash: ["kafka", "apachekafka", "kafkapartitions", "kafkaconsumergroups"],
     reactions: 4,
     comments: 0,
     read_time: 5,
@@ -283,12 +150,7 @@
     date: "Feb 27",
     link: "https://dev.to/collins42rono/object-oriented-programming-with-python-2c35",
     title: "Object Oriented Programming with Python",
-    hash: [
-      "javascript",
-      "perfomance",
-      "webdev",
-      "developer"
-    ],
+    hash: ["javascript", "perfomance", "webdev", "developer"],
     reactions: 3,
     comments: 0,
     read_time: 3,
@@ -301,13 +163,9 @@
     },
     link: "https://dev.to/n3wt0n/sign-your-container-images-with-cosign-github-actions-and-github-container-registry-3mni",
     date: "Feb 28",
-    title: "Sign Your Container Images with Cosign, GitHub Actions and GitHub Container Registry",
-    hash: [
-      "devops",
-      "docker",
-      "security",
-      "github"
-    ],
+    title:
+      "Sign Your Container Images with Cosign, GitHub Actions and GitHub Container Registry",
+    hash: ["devops", "docker", "security", "github"],
     reactions: 3,
     comments: 0,
     read_time: 9,
@@ -320,10 +178,7 @@
     },
     date: "Feb 28",
     title: "Rails administrate : big tutorial, bits of philosophy",
-    hash: [
-      "rails",
-      "ruby"
-    ],
+    hash: ["rails", "ruby"],
     reactions: 4,
     comments: 0,
     read_time: 7,
@@ -336,13 +191,9 @@
     },
     link: "https://dev.to/harlanzw/building-unlighthouse-open-source-package-for-site-wide-google-lighthouse-scans-5315",
     date: "Feb 28",
-    title: "Building Unlighthouse: Open-Source Package For Site-wide Google Lighthouse scans",
-    hash: [
-      "performance",
-      "productivity",
-      "opensource",
-      "javascript"
-    ],
+    title:
+      "Building Unlighthouse: Open-Source Package For Site-wide Google Lighthouse scans",
+    hash: ["performance", "productivity", "opensource", "javascript"],
     reactions: 6,
     comments: 0,
     read_time: 5,
@@ -356,12 +207,7 @@
     date: "Feb 28",
     link: "https://dev.to/laravellercom/laravel-vuejs-livewire-tutorials-5748",
     title: "Laravel Vuejs Livewire Tutorials",
-    hash: [
-      "laravel",
-      "vue",
-      "beginners",
-      "tutorial"
-    ],
+    hash: ["laravel", "vue", "beginners", "tutorial"],
     reactions: 3,
     comments: 0,
     read_time: 1,
@@ -375,12 +221,7 @@
     date: "Feb 28",
     link: "https://dev.to/williamadam89/the-ultimate-guide-to-passing-the-ncie-ns0-527-exam-in-2022-4ic",
     title: "The Ultimate Guide to Passing the NCIE NS0-527 Exam In 2022",
-    hash: [
-      "dumpscompany",
-      "ncie",
-      "netapp",
-      "software"
-    ],
+    hash: ["dumpscompany", "ncie", "netapp", "software"],
     reactions: 3,
     comments: 0,
     read_time: 5,
@@ -394,12 +235,7 @@
     date: "Feb 28",
     link: "https://dev.to/soorajvn07/what-is-modsecurity-installation-guide-for-apache-on-ubuntu-3899",
     title: "What is ModSecurity? Installation Guide for Apache on Ubuntu",
-    hash: [
-      "beginners",
-      "devops",
-      "github",
-      "security"
-    ],
+    hash: ["beginners", "devops", "github", "security"],
     reactions: 2,
     comments: 0,
     read_time: 1,
@@ -413,9 +249,7 @@
     date: "Feb 28",
     link: "https://dev.to/jmau111/spread-it-1gjp",
     title: "Spread it!",
-    hash: [
-      "php"
-    ],
+    hash: ["php"],
     reactions: 4,
     comments: 0,
     read_time: 1,
@@ -429,10 +263,7 @@
     date: "Feb 28",
     link: "https://dev.to/gspm1423/reactjs-dev-thought-process-1acg",
     title: "ReactJS dev thought process",
-    hash: [
-      "react",
-      "design"
-    ],
+    hash: ["react", "design"],
     reactions: 3,
     comments: 0,
     read_time: 1,
@@ -446,12 +277,7 @@
     date: "Feb 28",
     link: "https://dev.to/klaudiaj/giving-power-back-to-the-client-2g2k",
     title: "Giving power back to the Client!",
-    hash: [
-      "strapi",
-      "cms",
-      "react",
-      "frontend"
-    ],
+    hash: ["strapi", "cms", "react", "frontend"],
     reactions: 3,
     comments: 0,
     read_time: 1,
@@ -465,12 +291,7 @@
     date: "Feb 28",
     link: "https://dev.to/lazypro/how-to-prepare-a-design-review-like-an-expert-kbc",
     title: "How to Prepare a Design Review Like an Expert?",
-    hash: [
-      "tutorial",
-      "programming",
-      "productivity",
-      "design"
-    ],
+    hash: ["tutorial", "programming", "productivity", "design"],
     reactions: 3,
     comments: 0,
     read_time: 5,
@@ -484,11 +305,7 @@
     date: "Feb 28",
     link: "https://dev.to/hshoja/debuncing-vs-throttling-c7f",
     title: "Debouncing vs Throttling",
-    hash: [
-      "javascript",
-      "react",
-      "performance"
-    ],
+    hash: ["javascript", "react", "performance"],
     reactions: 3,
     comments: 0,
     read_time: 2,
@@ -502,12 +319,7 @@
     date: "Feb 28",
     link: "https://dev.to/anshuman_bhardwaj/memoization-the-what-why-and-how-3ccn",
     title: "Memoization: the what, why and how?",
-    hash: [
-      "javascript",
-      "beginners",
-      "webdev",
-      "programming"
-    ],
+    hash: ["javascript", "beginners", "webdev", "programming"],
     reactions: 3,
     comments: 0,
     read_time: 2,
@@ -535,12 +347,7 @@
     date: "Feb 28",
     link: "https://dev.to/judionit/avoid-asyncawait-hell-2gb6",
     title: "Avoid async/await hell",
-    hash: [
-      "javascript",
-      "programming",
-      "typescript",
-      "node"
-    ],
+    hash: ["javascript", "programming", "typescript", "node"],
     reactions: 10,
     comments: 2,
     read_time: 2,
@@ -554,12 +361,11 @@
     date: "Feb 28",
     link: "https://dev.to/admantium/rgb-depth-camera-in-robotics-starting-with-the-realsense-r435-sdk-3jip",
     title: "RGB Depth Camera in Robotics: Starting with the Realsense R435 SDK",
-    hash: [
-      "robotics",
-      "python"
-    ],
+    hash: ["robotics", "python"],
     reactions: 3,
     comments: 0,
     read_time: 7,
   },
 ];
+
+export default posts;

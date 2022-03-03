@@ -1,5 +1,7 @@
 import React from "react";
 import SidebarLeft from "../sidebarLeft/sidebarLeft";
+import ArticlesFeed from "../articlesFeed/articlesFeed";
+import SidebarRight from "../sidebarRight/sidebarRight";
 import { Wrapper, Inner } from "./style";
 
 export default function Layout() {
@@ -8,8 +10,8 @@ export default function Layout() {
       <div>
         <Inner>
           <SidebarLeft />
-          {/* <ArticlesFeed />
-            <SidebarRight /> */}
+          <ArticlesFeed />
+          <SidebarRight />
         </Inner>
       </div>
     </Wrapper>

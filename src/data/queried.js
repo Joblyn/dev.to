@@ -1,4 +1,4 @@
-[
+export default[
   {
     text: "Install Gdb Mac",
     link: "https://dev.to/jasonelwood/setup-gdb-on-macos-in-2020-489k"

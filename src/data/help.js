@@ -1,4 +1,4 @@
-[
+export default [
   {
     text: "Unable to access ProxMox via url after installation",
     tag: "New",

@@ -36,12 +36,12 @@ export default function SidebarLeft() {
                 height="640"
               />
             </a>
-            <h3>
-              <a href="https://shop.dev.to/collections/accesories/products/sticker-pack-1">
-                Got DEV Stickers Yet?
-              </a>
-            </h3>
           </p>
+          <h3>
+            <a href="https://shop.dev.to/collections/accesories/products/sticker-pack-1">
+              Got DEV Stickers Yet?
+            </a>
+          </h3>
         </Card>
         <Card p3 mt4>
           <p>
@@ -58,7 +58,9 @@ export default function SidebarLeft() {
               <a href="https://github.com/forem/forem">Main Forem Repo</a>
             </li>
             <li>
-              <a href="https://github.com/forem/selfhost">Self-Host Instructions</a>
+              <a href="https://github.com/forem/selfhost">
+                Self-Host Instructions
+              </a>
             </li>
           </ul>
         </Card>

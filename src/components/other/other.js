@@ -13,7 +13,7 @@ export default function Other({ ...restProps }) {
             ? "https://dev.to/"
             : "https://dev.to/" + item.text.toLowerCase();
         return (
-          <Item>
+          <Item key={`other_${item.text}`}>
             <Link href={link}>
               <span>
                 <item.icon />

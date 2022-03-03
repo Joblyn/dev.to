@@ -10,3 +10,12 @@
 .card-list li {
   list-style-type: disc;
 }
+
+.fs-xs {
+  font-size: 0.75rem;
+  color:rgb(82,82,82);
+}
+.fs-md {
+  font-weight: 500;
+  color:rgb(64,64,64);
+}

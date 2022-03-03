@@ -1,4 +1,4 @@
-[
+export default [
   {
     main: "High Paid Jobs Over $100K 🔥🔥",
     sub: "education",

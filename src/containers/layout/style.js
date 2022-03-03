@@ -20,6 +20,6 @@ export const Inner = styled.div`
     grid-template-columns: 240px 2fr 1fr;
   }
   @media (min-width: 768px) {
-    grid-template-columns: 2fr 2fr 1fr;
+    ${'' /* grid-template-columns: 2fr 2fr 1fr; */}
   }
 `;
