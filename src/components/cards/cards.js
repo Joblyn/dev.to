@@ -118,8 +118,14 @@ Story.Bottom = function StoryBottom({ link, reacts, comms, read }) {
       <Details>
         <BtnGhost href={link}>
           <Reacts />
-          {` ${reacts}`}
-          <span>reactions</span>
+          {reacts > 0 ? (
+            <>
+              {reacts}
+              <span>{` reactions`}</span>
+            </>
+          ) : (
+            <span>Add Reaction</span>
+          )}
         </BtnGhost>
         <BtnGhost href={link + "#comments"}>
           <Comments />
